@@ -31,7 +31,7 @@ public class board implements MouseListener, ActionListener {
     int boardRow = 10;
     int boardCol = 10;
     public board() {
-        redFlag = new ImageIcon("/Users/ethanli/Downloads/flag.png");
+        redFlag = new ImageIcon("src/flag.png");
         frame = new JFrame(); // main window/container of the program
         frame.setSize(800, 800);
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE); // closes the program when the window is closed
